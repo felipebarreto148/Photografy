@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # photography
 
 ## Project setup
