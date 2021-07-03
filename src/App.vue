@@ -3,11 +3,7 @@
     <v-app-bar app flat color="white">
       <Header />
     </v-app-bar>
-    <v-main>
-      <Hero />
-      <Gallery />
-      <LatestPost />
-    </v-main>
+    <router-view></router-view>
     <v-footer>
       <Footer />
     </v-footer>
@@ -16,9 +12,6 @@
 
 <script>
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Gallery from "./components/Gallery";
-import LatestPost from "./components/LatestPost";
 import Footer from "./components/Footer";
 
 export default {
@@ -26,9 +19,6 @@ export default {
 
   components: {
     Header,
-    Hero,
-    Gallery,
-    LatestPost,
     Footer,
   },
 
